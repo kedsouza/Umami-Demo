@@ -1,0 +1,2 @@
+/* @license GNU-GPL-2.0-or-later https://www.drupal.org/licensing/faq */
+(function(){const toggler=document.querySelector('[data-drupal-selector="menu-main-toggle"]');const menu=document.querySelector('[data-drupal-selector="menu-main"]');function toggleMenu(){toggler.classList.toggle('menu-main-toggle--active');menu.classList.toggle('menu-main--active');return false;}toggler.addEventListener('click',toggleMenu);})();;
