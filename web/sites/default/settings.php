@@ -862,8 +862,8 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # }
 $databases['default']['default'] = array (
   'database' => 'umami',
-  'username' => 'keegan',
-  'password' => 'Database15!',
+  'username' => '{your-username}',
+  'password' => '{your-password}',
   'prefix' => 'demo_umami',
   'host' => 'kedsouza-mysql.mysql.database.azure.com',
   'port' => '3306',
